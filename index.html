@@ -7,31 +7,34 @@
 		<link rel="stylesheet" href="css/styles.css">
 	</head>
 	<body>
+		<header id="header">
+			<div class="logo flex">
+				<a href="#intro">
+					<img src="images/Gamers-United-Logo.png" alt="Company Logo" id="header-img">
+				</a>
+			</div>
+			<nav id="nav-bar" class="flex">
+				<ul>
+					<li class="nav-link"><a href="#products">Products</a></li>
+					<li class="nav-link"><a href="#embed">Radeon RX 6700XT</a></li>
+					<li class="nav-link"><a href="#user-contact">Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
+
 		<main class="container">
-			<header id="header">
-				<div class="logo flex">
-					<a href="#intro">
-						<img src="images/Gamers-United-Logo.png" alt="Company Logo" id="header-img">
-					</a>
-				</div>
-				<nav id="nav-bar" class="flex">
-					<ul>
-						<li class="nav-link"><a href="#features">Features</a></li>
-						<li class="nav-link"><a href="#video">Radeon RX 6700XT</a></li>
-						<li class="nav-link"><a href="#user-contact">Contact Us</a></li>
-					</ul>
-				</nav>
-			</header>
+
 
 			<section id="intro">
-				<h1 class="heading">Welcome to <span class="cursive">Gamers United</span></h1>
+				<h1 class="heading">Welcome to </h1>
+				<h1 class=" heading cursive">Gamers United</h1>
 				<p class="about">
 					We are a group of gamers who're dedicated to get the best components right to your doorstep. We provide the best wholesale price which no retailer can beat.
 					We currently deal in internal components and will soon be expanding to gaming accessories. We accept bulk orders, so make sure to <a href="#user-contact" class="no-dec">Contact Us</a> for the best price. You love gaming, we love getting you game ready.
 				</p>
 			</section>
 
-			<section id="features">
+			<section id="products">
 				<h1 class="heading">Our Products</h1>
 				<div class="grid">
 					<!-- https://www.w3schools.com/howto/howto_css_cards.asp -->
@@ -92,13 +95,13 @@
 				</div>
 			</section>
 
-			<section id="video">
+			<section id="embed">
 				<h2>IN STOCK SOON</h2>
 				<iframe
         			id="video"
-					height="400px"
+					height="500px"
 					width="80%"
-					src="https://www.youtube-nocookie.com/embed/CmBfFn3bC4E"
+					src="https://www.youtube.com/embed/CmBfFn3bC4E"
 					frameborder="0"
 					allowfullscreen>
       			</iframe>
@@ -106,16 +109,18 @@
 
 			<section id="user-contact">
 				<form action="https://www.freecodecamp.com/email-submit" id="form">
-					<label for="email">For orders and other enquiries</label>
+					<label for="email" id="email-label">For orders and other enquiries</label>
 					<input type="email" name="email" id="email" class="" placeholder="Enter your Email ID" required>
 					<input type="submit" value="Game ON" id="submit">
 				</form>
 			</section>
 
-			<footer id="footer">
-				<small>Copyright &copy; 2021 Gamers United. All rights reserved.</small>
-				<!-- This is just for show. I don't own any content presented in the above website -->
-			</footer>
+
 		</main>
+
+		<footer id="footer">
+			<p>Copyright &copy; 2021 Gamers United. All rights reserved.</p>
+			<!-- This is just for show. I don't own any content presented in the above website -->
+		</footer>
 	</body>
 </html>
